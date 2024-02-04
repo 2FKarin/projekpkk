@@ -6,3 +6,8 @@ Web ini dibangun dengan tujuan memanajemen arus data yang berkaitan dengan penge
 
 Pengembang :
 KuySport
+
+Partner :
+PT. Presentologich (Dicoding)
+Universitas Islam Sultan Agung Semarang
+Teknik Informatika

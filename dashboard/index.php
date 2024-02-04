@@ -69,4 +69,4 @@ if (!isset($_SESSION['login'])) {
 <!--  -->
 
 
-<?php require '../_footer.php'; ?>
+<?php require '../_footer.php';
