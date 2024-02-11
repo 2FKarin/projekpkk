@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HARY GYM</title>
+  <title>KuySports</title>
   <link rel="stylesheet" href="../assets/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="../assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="../assets/js/jquery.js"></script>
   <!--  -->
   <style>
@@ -26,33 +28,33 @@
 
   </div>
   <!-- section nav -->
-  <div class="container-fluid">
+  <div class="container-flex">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <!-- letakkan image hary gym -->
         <a class="navbar-brand" href="#">
-          <img src="../assets/img/logo_web-gym.jpg" style="border-radius: 150px; height: 40px; width: 40px;" alt="hary_gym">
-          <span><b> WEB HARY GYM </b></span>
-        </a>
+        <img src="../assets/img/kuy_logo.png" style="height: 40px; width:40px;border-radius: 50px;" class="brand-image " >
+        <span><b> KuySports</b></span>
+      </a>
         <!-- end img -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <form class="d-flex">
+            <a href="../login.php" class="btn btn-primary active">Login</a>
+          </form>
             <li class="nav-item">
               <a class="nav-link" href="registrasi-member.php">Daftar Member</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"></a>
             </li>
           </ul>
-          <form class="d-flex">
-            <a href="../login.php" class="btn btn-primary active">Login</a>
-          </form>
         </div>
       </div>
     </nav>
@@ -71,24 +73,24 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../assets/img/carousel1.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
+              <img src="../assets/img/mentor.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Build Perfect Body</h5>
-                <p>Raih badan impianmu disini dengan penawaran paket impian.</p>
+                <h5>Mentor Yang Kompeten</h5>
+                <p>Adanya Mentor yang tepat serta berkompeten dibidangnya akan membuat latihan anda menjadi mudah. Mentor telah mendapatkan sertifikat sesuai bidangnya.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="../assets/img/carousel2.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
+              <img src="../assets/img/kunsultasi.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Best Training</h5>
-                <p>Tempat dengan pelatihan terbaik yang ada di mataram.</p>
+                <h5>Konsultasi Gratis</h5>
+                <p>Segala hambatan yang anda hadapi semasa latihan dapat anda konsultasikan dengan mentor, hal ini perlu agar anda mendapatkan hasil latihan yang maksimal.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="../assets/img/carousel3.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
+              <img src="../assets/img/flesibel.jpg" class="d-block w-100" style="height: 510px; border-radius:20px;" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Free Konsultasi</h5>
-                <p>Konsultasi apapun akan dilayani oleh mentor-mentor yang ahli dibidangnya.</p>
+                <h5>Waktu Fleksibel</h5>
+                <p>Olahraga yang anda terapkan bersama mentor fleksibel, dengan mengatur waktunya terlebih dahulu, hal ini untuk kenyamanan dan kepuasan anda.</p>
               </div>
             </div>
           </div>
@@ -105,13 +107,11 @@
 
       <div class="col-lg-10 py-2" style="margin: auto;">
 
-        <p style="color: white;text-align: justify;"><b>Hary Gym</b> Adalah sebuah Tempat Kebugaran yang
-          banyak sekali diminati baik kalangan remaja maupun dewasa untuk dijadikan sebagai tempat
-          melakukan kegiatan latihan kebugaran sseperti senam , atletik ataupun kardio. Pada Hary gym
-          atau pusat kebugaran golongan satu ini terdapat fasilitas berupa area fitness serta area senam.
-          Tempat ini juga memiliki akses wifi dan memiliki tampilan elegan serta desain interiornya
-          memiliki desain khusus sehingga diminati oleh kalangan remaja saat ini di mataram.
-        </p>
+        <p style="color: white;text-align: center;"><b>KuySports</b></p> 
+        <p style="color: white; text-align: justify;">Memberikan solusi yang tepat bagi mereka yang kesulitan untuk memulai, 
+        menjalani dan mempertahankan rutinitas olahraga. Kami yakin dengan hadirnya KuySports bisa membantu setiap individu 
+        meraih kebugaran dan kesehatan serta memiliki motivasi yang besar untuk tetap berolahraga secara aktif. 
+      Sesuaikan paket yang kami miliki dibawah ini dengan tujuan anda.</p>
       </div>
 
     </div>
@@ -124,7 +124,7 @@
     <div class="container">
       <div class="row mb-3 py-2">
         <div class="col-md-12" style="margin: auto;">
-          <h2 style="text-align: center; color: black;">Daftar Paket Kami</h2>
+          <h2 style="text-align: center; color: black;">Daftar Paket</h2>
           <hr>
           <div class="row">
             <!--  -->
@@ -143,7 +143,7 @@
 
 
                 <div class="card" style="width: 18rem; height: 24rem; border-radius: 10px;">
-                  <h5 class="card-header" style="background-color: #18212b; color: whitesmoke;text-align: center;">Rp.<?= $data->harga_paket; ?></h5>
+                  <h5 class="card-header" style="background-color: #18212b; color: whitesmoke;text-align: center;">Rp <?= $data->harga_paket; ?></h5>
                   <img src="../assets/img/<?= $data->gambar; ?>" class="card-img-top" style="height: 140px;">
 
                   <div class="card-body">
@@ -180,25 +180,40 @@
 
   <section class="container" style="color: whitesmoke;">
 <div class="row">
-    <div class="col center">
-      <h3 style="text-align: center;">Yuk Gabung Dengan Hary Gym Sekarang !</h3>
-     
-      <a style="display: flex;justify-content: center;width: 70px;align-items: center;margin: auto;" type="button" class="btn btn-success" href="registrasi-member.php">Join</a>
-      <br>
-      </div>
-      <hr>
-      <div class="info col-md-6">
-        <ul>
-          <li><span class="fa fa-map-marker"></span> Alamat : jl. lalu mesir no.10 cakranegara</li>
-          <hr>
-          <li><span class="fa fa-phone"></span> No.telp : 0878515123412</li>
-          <hr>
-          <li><span class="fa fa-envelope"></span> BUILD YOUR FIT BODY NOW IN HARY GYM</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+         <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Mitra</h3>
+          <p><a href="https://www.dicoding.com/about" target="_blank"><img src="../assets/img/dicoding.jpg" style="border-radius: 50px; height: 30px; width: 30px;"></a>&ensp;PT. Presentologics</p>
+          <p><a href="https://unissula.ac.id/" target="_blank"><img src="../assets/img/logo unissula.png" style="border-radius: 50px; height: 30px; width: 30px;"></a>&ensp;Universitas Islam Sultan Agung</p>
+          <p><a href="https://fti.unissula.ac.id/" target="_blank"><img src="../assets/img/logo fti.jpg" style="border-radius: 50px; height: 30px; width: 30px;"></a>&ensp;Fakultas Teknologi Industri</p>
+          </div>
+        <div class="col-md-3">
+          <h3>Keuntungan</h3>
+          <p><i class="fa fa-certificate" style="font-size:19px"></i>&ensp;Mentor Yang Kompeten</p>
+          <p><i class="fa fa-handshake-o"></i> Konsultasi Gratis</p>
+          <p> <i class="fa fa-clock-o" style="font-size:20px"></i>&ensp;Waktu Fleksibel</p>
+          </div>
+        <div class="col-md-3">
+          <h3>Kontak</h3>
+          <p><i class="fa fa-phone"></i>&ensp;+6285730006570</p>
+          <p><i class="fa fa-envelope"></i>&ensp;kuysports@gmail.com</p>
+          <p><i class="fa fa-home"style="font-size:19px"></i>&ensp;Semarang, Jawa Tengah</p> 
+        </div>
 
+        <div class="col-md-2">
+          <h3>Ikuti Kami</h3>
+          <p><i class="fa fa-instagram"style="font-size:20px"></i>&ensp;<a href="https://www.instagram.com/yundo_47/"target="_blank">Instagram</a></p>
+          <p><i class="fa fa-facebook-f" style="font-size:24px"></i>&ensp; <a href="https://www.facebook.com/fajrulfalah.peta"target="_blank">Facebook</a></p>
+          <p><i class="fa fa-youtube-play"style="font-size:20px"></i>&ensp;<a href="https://www.youtube.com/channel/UCh1SXQYNK-p3yRVj57Vu9sQ"target="_blank">Youtube</a></p>         
+        </div>
+      </div> 
+      <hr>
+      <footer align="center">
+        <center> <p class="copyright">&#169; 2024 <b>KuySports</b></p></center>
+      </footer>
+    </div>
   <!-- bundel min js -->
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>

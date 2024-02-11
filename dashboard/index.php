@@ -8,7 +8,7 @@ if (!isset($_SESSION['login'])) {
 
 <div class="card col-xl-6 bg-info" style="margin-top: 20px;">
   <div class="card-body" style="text-align: center;">
-  <h5>Welcome <?= $_SESSION['username']; ?> To Website Gym </h5>
+  <h5>Welcome <?= $_SESSION['username']; ?> To  <?= $_SESSION['role']; ?> KuySports </h5>
   <a href=""></a>
   </div>
 </div>

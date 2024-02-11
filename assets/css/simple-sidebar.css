@@ -127,3 +127,9 @@
     max-width: 400px;
     height: auto;
   }
+  .footer-logo
+{
+	width: 150px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}

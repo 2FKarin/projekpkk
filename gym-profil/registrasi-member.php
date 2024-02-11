@@ -5,11 +5,17 @@
  	<meta charset="UTF-8">
  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 	<title>Document</title>
+ 	<title>Form Registrasi</title>
  	<link rel="stylesheet" href="../assets/fontawesome-free/css/all.min.css">
 
  	<link rel="stylesheet" href="../assets/bootstrap-5.0.2-dist/css//bootstrap.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
  	<style>
  		body {
  			background-color: #18212b;
@@ -41,7 +47,7 @@
  					</div>
  					</h4>
  					<div class="row">
- 						<div class="col-lg-6 col-lg-offset-3">
+ 						<div class="col-lg-5 col-lg-offset-3">
  							<!--  -->
  							<h3 class="alert alert-info"> Registrasi Member & Paket</h3>
  							<!--  -->
@@ -60,7 +66,7 @@
 
 
 									if ($query2) {
-										header('location:index.php');
+										header ("location:registrasi-member.php");
 									} else {
 										echo 'Query Error' . mysqli_error($koneksi);
 									}
@@ -101,11 +107,10 @@
  								</div>
  								<br>
  								<div class="form-group pull-right">
- 									<input type="submit" name="simpan" value="Simpan" class="btn btn-success">
+								 <input type="submit" name="simpan" value="Simpan" class="btn btn-success" onclick="return confirm('Konfirmasi Pendaftaran Anda Sebagai Member?')">
  									<a type="button" class="btn btn-primary" href="index.php">Kembali</a>
-
- 								</div>
- 							</form>
+								</div>
+							</form>
  						</div>
  					</div>
  				</div>

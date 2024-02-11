@@ -14,7 +14,7 @@ if (!isset($_SESSION['login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>HARY GYM</title>
+    <title>KuySports</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="../assets/fontawesome-free/css/all.min.css">
 
@@ -35,8 +35,8 @@ if (!isset($_SESSION['login'])) {
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="">
-                        <img src="../assets/img/logo_web-gym.jpg" style="height: 40px; width:40px;border-radius: 50px;" alt="hary_gym" class="brand-image " >
-                        <span><b> WEB HARY GYM </b></span>
+                        <img src="../assets/img/kuy_logo.png" style="height: 40px; width:40px;border-radius: 50px;" class="brand-image " >
+                        <span><b> KuySports</b></span>
                     </a>
                 </li>
                 <li>
@@ -55,7 +55,7 @@ if (!isset($_SESSION['login'])) {
                     <a href="../dashboard/index.php">Dashboard</a>
                 </li>
                 <li>
-                    <a href="../paket-gym/data-paket.php">Paket gym</a>
+                    <a href="../paket-gym/data-paket.php">Paket</a>
                 </li>
                 <li>
                     <a href="../member/data-member.php">Data Member</a>

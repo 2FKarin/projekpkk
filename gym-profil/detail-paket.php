@@ -31,7 +31,7 @@
                     <p style="text-align: justify;" class="card-text"><b>Keterangan :</b> <br> <?= $data->ket_paket; ?></p>
                     <hr>
                     <p class="card-text"><b>ID :</b>  <?= $data->id_paket; ?></p>
-                    <p class="card-text"><b>Harga :</b> Rp.<?= $data->harga_paket; ?></p>
+                    <p class="card-text"><b>Harga :</b> Rp <?= $data->harga_paket; ?></p>
                 </div>
                 <div class="card-body">
                 <a type="button" class="btn btn-primary" href="index.php">Kembali</a>
