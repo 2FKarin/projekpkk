@@ -8,6 +8,9 @@ Pengembang :
 KuySport
 
 Partner :
+
 PT. Presentologich (Dicoding)
+
 Universitas Islam Sultan Agung Semarang
+
 Teknik Informatika
